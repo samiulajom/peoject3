@@ -1,0 +1,697 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Header start */
+header {
+  width: 100%;
+  height: 50px;
+  font-weight: bold;
+  position: fixed;
+  background-color: aliceblue;
+  box-shadow: 2px 10px 30px rgba(197, 175, 175, 0.3);
+  z-index: 1;
+}
+header div {
+  float: left;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  padding: 10px;
+  margin-left: 150px;
+}
+header .navbar {
+  position: absolute;
+  top: 0;
+  right: 150px;
+}
+.navbar ul {
+  list-style: none;
+}
+.navbar ul li {
+  float: left;
+  padding: 10px 20px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(25, 27, 27);
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+
+  
+}
+.navbar ul li a:hover {
+  color: rgb(92, 156, 230);
+}
+.navbar ul li .home {
+  color: rgb(92, 156, 230);
+}
+#checkID{
+  display: none;
+}
+.checkbtn{
+  display: none;
+  font-size: 30px;
+  float: right;
+  margin-right: -100px;
+  line-height: 80px;
+}
+
+/* header end */
+/* section1 start */
+.section1 {
+  width: 100%;
+  height: 665px;
+  margin-top: 0px;
+  background-color: rgb(249, 249, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 70px;
+}
+.helf1,
+.helf2 {
+  width: 50%;
+  display: flex;
+}
+.half1 {
+  margin-bottom: 120px;
+  margin-left: 150px;
+}
+.half1 h3 {
+  color: rgb(105, 102, 96);
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: -25px;
+  letter-spacing: 1px;
+}
+.half1 h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+}
+.half1 p {
+  width: 70%;
+  margin-top: -42px;
+  color: rgb(105, 102, 96);
+}
+.half1 .btn1 button {
+  color: rgb(247, 240, 240);
+  font-size: 20px;
+  background: linear-gradient(
+    90deg,
+    rgb(128, 149, 255),
+    60%,
+    rgb(100, 186, 252)
+  );
+  padding: 15px;
+  outline: none;
+  border: none;
+}
+.half1 .btn1 button:hover {
+  color: rgb(252, 251, 251);
+  box-shadow: 2px 10px 30px rgba(197, 175, 175, 0.5);
+  transition: all ease-in 0.3;
+}
+/* section1 end */
+/* section2 start */
+.section2 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section2 .half4 {
+  width: 40%;
+}
+
+.section2 .half4 {
+  width: 60%;
+}
+.half4 h3 {
+  color: rgb(46, 39, 24);
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 15px;
+}
+.half4 h1 {
+  font-size: 40px;
+  color: rgb(53, 52, 51);
+}
+.half4 p {
+  width: 70%;
+  margin-top: -10px;
+  color: rgb(105, 102, 96);
+  font-size: 18px;
+}
+.half4 .btn2 button {
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgb(128, 149, 255),
+    60%,
+    rgb(100, 186, 252)
+  );
+  margin-top: 15px;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+}
+.half4 .btn2 button:hover {
+  color: rgb(252, 251, 251);
+  box-shadow: 2px 10px 30px rgba(197, 175, 175, 0.5);
+  transition: all ease-in 0.3;
+}
+/* section2 end */
+/* section3 start */
+.section3 {
+  width: 100%;
+  height: 650px;
+  text-align: center;
+}
+.section3 .serviceText {
+  justify-content: center;
+  align-items: center;
+  margin: opx auto;
+  padding-top: 20px;
+}
+.section3 .serviceText h1 {
+  font-size: 40px;
+  line-height: 10px;
+}
+.section3 .serviceText p {
+  width: 500px;
+  margin: 0px auto;
+  color: #585454;
+  font-size: 12px;
+  padding-bottom: 60px;
+}
+
+.section3 .services {
+  width: 80%;
+  margin: 0px auto;
+}
+.section3 .services .service1,
+.service2 {
+  width: 100%;
+  overflow: hidden;
+}
+.service1 div,
+.service2 div {
+  width: 32%;
+  float: left;
+  margin: 0px auto;
+  padding: 5px;
+}
+.service1 div h1,
+.service2 div h1 {
+  font-size: 15px;
+  color: #2e2b2b;
+}
+.service1 div p,
+.service2 div p {
+  color: #585454;
+  font-size: 12px;
+}
+.service1 i,
+.service2 i {
+  font-size: 40px;
+  color: #2b2828;
+}
+/*   */
+.service1 div i:hover,
+.service1 h1:hover {
+  background: linear-gradient(
+    90deg,
+    rgb(128, 149, 255),
+    60%,
+    rgb(100, 186, 252)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.service2 div i:hover,
+.service2 div h1:hover {
+  background: linear-gradient(
+    90deg,
+    rgb(128, 149, 255),
+    60%,
+    rgb(100, 186, 252)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* section3 end */
+/* section4 start */
+.section4 {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(
+    90deg,
+    rgb(128, 149, 255),
+    60%,
+    rgb(100, 186, 252)
+  );
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  display: flex;
+}
+.section4 div {
+  padding-left: 10px;
+  color: white;
+}
+.section4 div h1 {
+  font-size: 40px;
+  line-height: 0px;
+  color: white;
+}
+.section4 div p {
+  padding-left: 10px;
+  padding-top: 0px;
+  font-size: 12px;
+}
+/* section4 end */
+/* section5 start */
+.portSection {
+  width: 80%;
+  height: 600px;
+  margin: 0px auto;
+
+
+}
+.portSection .portText {
+  width: 100%;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+.portText h1 {
+  font-size: 40px;
+  line-height: 0px;
+  color: #252424;
+}
+.portText p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.portImg {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portImg div {
+  width: 340px;
+  height: 339px;
+  padding-bottom: 60px;
+  padding-left: 5px;
+
+  text-align: center;
+}
+.portImg div h1 {
+  font-size: 20px;
+  line-height: 0px;
+}
+.portImg div p {
+  font-size: 11px;
+  color: #585454;
+  line-height: 2px;
+}
+.portImg figure {
+  width: 340px;
+  height: 339px;
+  border-radius: 5%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    90deg,
+    rgb(128, 149, 255),
+    60%,
+    rgb(100, 186, 252)
+  );
+}
+.portImg figure:hover img {
+  opacity: 0.3;
+  transition: al ease-in-out 0.3s;
+}
+
+/* section5 end */
+/* section6 start */
+.section6 {
+  width: 80%;
+  height: 400px;
+  align-items: center;
+
+  margin-left: 100px;
+  margin-top: 350px;
+}
+.section6 .text6 {
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.section6 .card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card div {
+  width: 200px;
+  height: 600px;
+  padding-left: 10px;
+  text-align: center;
+}
+.section6 .card1 {
+  height: 300px;
+}
+.card1 h1 {
+  font-size: 40px;
+  line-height: 0px;
+}
+
+.card1 h2 {
+  font-size: 18px;
+}
+.card1 p {
+  font-size: 14px;
+  color: #252424;
+  opacity: o.3;
+}
+.card1 input {
+  visibility: hidden;
+}
+.card1 .price {
+  font-size: 30px;
+}
+.card1 hr {
+  opacity: 0.3;
+}
+
+.card1:hover input {
+  color: rgb(19, 17, 17);
+  font-size: 20px;
+  background: white;
+  padding: 5px 25px;
+  overflow: hidden;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  visibility: visible;
+  position: relative;
+  top: -40px;
+}
+.card1:hover .price {
+  visibility: hidden;
+}
+.card1:hover .hrL {
+  visibility: hidden;
+}
+.card1:hover {
+  color: rgb(247, 240, 240);
+  font-size: 20px;
+  background: linear-gradient(
+    90deg,
+    rgb(128, 149, 255),
+    60%,
+    rgb(100, 186, 252)
+  );
+  padding: 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 2px 10px 30px rgba(197, 175, 175, 0.5);
+  transition: all ease-in-out 0, 3;
+}
+/* section6 end */
+/* footer start */
+footer{
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  margin-top: 200px;
+  bottom: 0;
+  padding: 0;
+  color: white;
+justify-content: center;
+}
+footer .foot {
+  width: 80%;
+  height: auto;
+  display: flex;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 100px;
+  align-items: center;
+  justify-content:center;
+
+}
+footer .foot1 {
+  width: 35%px;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding-left:40px ;
+}
+.foot .foot1 .box{
+  display: flex;
+ 
+
+}
+.foot .foot1 div input{
+  width: 300px;
+  height:35px;
+  border: none;
+  outline: none;
+  padding: 10px 15px 5px 10px;
+  font-size: 15px;
+  
+}
+.foot .foot1 div button{
+  color: blue;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 12px;
+  cursor: pointer;
+}
+.foot .foot1  .icon i{
+padding: 10px;
+font-size: 15px;
+font-weight: bold;
+cursor: pointer;
+}
+/* footer end
+ */
+/* Responsive Part */
+@media (max-width: 768px){
+  header{
+    width: 100%;
+    height: auto;
+  }
+  header .logo{
+    margin-left: 30px;
+    padding: 20px;
+  }
+  .checkbtn{
+    display: block;}
+
+   header .navbar ul{
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    background-color: aliceblue;
+    top: 54px;
+    left: -200%;
+    transition: all .1s;
+  }
+  header .navbar ul li{
+    line-height: 30px;
+    clear: both;
+    margin-top:15px ;
+  }
+  #checkID:checked ~ul{
+    left: 0px;
+
+  }
+    
+  /* section1 responsibe */
+.section1{
+  width: 100%;
+  height: auto;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  padding-top: 90px;
+}
+.section1 .half1 h3{
+  font-size: 15px;
+  
+}
+.section1 .half1 h1{
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.section1 .half1 .btn1 button{
+  cursor: pointer;
+}
+.section1 .half2 img{
+  margin-left: 22%;
+  margin-top: -100px;
+  max-width: 50%;
+  height: auto;
+}
+/* section2 responsible */
+.section2{
+  width: 100%;
+  height: 100vh;
+  display: block;
+  position: relative;
+  top: 70px;
+}
+.section2 div{
+  width: 100%;
+}
+.section2 .half3 img{
+ position: relative;
+ right: 90px;
+}
+.section2 .half4 div{
+  position: relative;
+  width: 100%;
+ 
+}
+.section2 .half4 h3 {
+  text-align: center;
+
+}
+.section2 .half4 h1{
+  font-size: 30px;
+  text-align: center;
+}
+.section2 .half4 p{
+  display: block;
+  width: 100%;
+margin-left: 50px;
+font-size: 15px;
+color: #252424;
+  
+}
+.section2 .btn2 button{
+  display: block;
+  margin: auto;
+  cursor: pointer;
+
+}
+/* section3 part responsible */
+   .section3{
+    position: relative;
+    top: 250px;
+   }
+   .section3 .serviceText{
+    display: block;
+   }
+   .section3 .serviceText p{
+    width: 80%;
+   }
+   .section3 .services div{
+    display: block;
+    width: 100%;
+   }
+   /* section4 part responsible */
+   .section4{
+    position: relative;
+    top: 700px;
+    display: block;
+   }
+   .section4 div{
+    width: 100%;
+    padding-top: 10px;
+    line-height: 0px;
+   }
+   .section4 div h1{
+    font-size: 30px;
+    line-height: 0px;
+   }
+   /* protsection */
+   .portSection{
+    position: relative;
+    top: 700px;
+   }
+   .portSection .portText{
+    position: relative;
+    display: block;
+   
+   
+   }
+   .portSection .portText h1{
+    font-size: 25px;
+    width: 100%;
+  display: block;
+     }
+     /* section6 part responsible */
+     .section6{
+      position: relative;
+      top: 145rem;
+      width: 100%;
+    
+     }
+     .section6 .text6 h1{
+      display: block;
+      width: 70%;
+     }
+     .section6 .text6 p{
+     position: relative;
+     width: 70%;
+     }
+.section6 .card {
+  width: 100%;
+  display: block;
+
+}
+.section6 .card .card1{
+  padding-top: 10px;
+}
+/* footer part responsible */
+.section7{
+  position: relative;
+  top: 185rem;
+}
+footer{
+  display: block;
+  width: 100%;
+}
+footer .foot {
+  display: block;
+padding-top: 1px;
+margin-top: 0px;
+margin: auto;
+width: 100%;
+align-items: center;
+  
+}
+footer .foot .foot1{
+  width: 100%;
+  
+}
+footer .foot .foot1 h1{
+ text-align: center;
+  line-height: 0px;
+
+}
+.foot1 .f1{
+  width: 80%!important;
+
+
+}
+}
